@@ -2,6 +2,11 @@ body {
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   letter-spacing: 2px;
+
+  margin: 0 auto;
+  max-width: 900px;
+  min-width: 600px;
+
 }
 
 a,
@@ -28,4 +33,15 @@ h1 {
 }
 h2, h3 {
   color: rgb(255, 0, 0);
+}
+
+p, strong {
+  color: rgb(34,139,34);
+}
+
+abbr[title] {
+  text-decoration-color: rgb(69,105,159); /* blue */
+  text-decoration-style: wavy;
+  text-decoration-thickness: 2px;
+
 }
