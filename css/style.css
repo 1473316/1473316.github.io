@@ -3,12 +3,11 @@ body {
   font-size: 16px;
   letter-spacing: 2px;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 4fr;
   grid-gap: 16px;
   grid-template-areas:
     "header  header"
     "nav     main"
-    "main     main "
     "footer  footer";
 
     margin: 0 auto;
@@ -110,7 +109,3 @@ abbr[title] {
   grid-area: introduction;
 
 }*/
-
-section {
-  background-color: #ddd;
-}
