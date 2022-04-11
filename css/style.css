@@ -6,8 +6,8 @@ body {
   grid-template-columns: 1fr 2fr;
   grid-gap: 16px;
   grid-template-areas:
-    "head  head"
-    "main   main"
+    "header  header"
+    "nav   main"
     "footer  footer";
 
     margin: 0 auto;
@@ -48,7 +48,7 @@ p {
   color: #111;
   border: 2px, ridge, #ddd;
   padding: 10px;
-  text-align: right;
+  text-align: left;
 }
 
 p, strong {
@@ -57,19 +57,24 @@ p, strong {
 
 header {
   padding: 16px;
-  grid-area: head;
+  grid-area: header;
+}
+
+nav {
+  padding: 16px;
+  grid-area: nav
 }
 
 main {
   grid-area: main;
 
-  display grid: grid;
+  /*display grid: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
   grid-template-areas:
   "introduction        introduction"
   "people-and-society  communication"
-  "enviroment          enviroment"
+  "enviroment          enviroment"*/
 
 }
 
@@ -100,7 +105,7 @@ abbr[title] {
 
 }
 
-#introduction {
+/*#introduction {
   grid-area: introduction;
 
-}
+}*/
