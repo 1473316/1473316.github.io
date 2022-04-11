@@ -110,3 +110,7 @@ abbr[title] {
   grid-area: introduction;
 
 }*/
+
+section {
+  background-color: #ddd;
+}
