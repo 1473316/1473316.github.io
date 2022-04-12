@@ -26,7 +26,6 @@ header{
 aside {
   grid-area: aside;
 
-  background-color: rgba(121 85, 72, 0.3);
 }
 
 main {
@@ -50,16 +49,21 @@ footer {
 header, footer {
   background-color: rgba(158, 158, 158, 0.3);
 }
+
+aside{
+  background-color: rgba(121 85, 72, 0.3);
+}
+
 section {
   background-color: rgba(255, 152, 0, 0.3);
 
   width: 960px;
-  height: 100px;
   overflow: auto;
 }
 
 #star-trek {
   grid-area: star-trek;
+
 }
 
 #bleach {
