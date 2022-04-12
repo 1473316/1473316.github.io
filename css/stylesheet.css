@@ -21,8 +21,7 @@ grid-template-areas:
 h2 {
   margin-bottom: 16px;
   padding-left: 16px;
-
-  border-bottom: 1px, solid, #111;
+  border-bottom: 1px solid #555;
 }
 
 p {
@@ -74,6 +73,11 @@ section {
   overflow: auto;
 }
 
+img {
+  float: right;
+  width: 100%;
+}
+
 #star-trek {
   grid-area: star-trek;
 
@@ -85,6 +89,7 @@ section {
 
 #harry-potter {
   grid-area: harry-potter;
+
 }
 
 #narnia {
