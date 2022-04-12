@@ -5,7 +5,7 @@ font-size: 16px;
 letter-spacing: 1px;
 
 display: grid;
-grid-template-columns: 1fr 2fr;
+grid-template-columns: 1fr 4fr;
 grid-gap: 16px;
 grid-template-areas:
   "header  header"
