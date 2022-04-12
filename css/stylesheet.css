@@ -17,8 +17,12 @@ grid-template-areas:
   "footer  footer";
 }
 
+h1 {
+  padding-left: 16px;
+}
+
 h2 {
-  margin-top: 10px;
+  margin-bottom: 16px;
 }
 
 p {
@@ -60,7 +64,7 @@ header, footer {
   background-color: rgba(158, 158, 158, 0.3);
 }
 
-aside{
+aside {
   background-color: rgba(121, 85, 72, 0.3);
 }
 
