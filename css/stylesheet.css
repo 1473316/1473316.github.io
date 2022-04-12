@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
 }
-
 body{
 font-family: "Helvetica", "Arial", sans-serif;
 line-height: 1.6;
@@ -10,7 +9,7 @@ font-size: 16px;
 letter-spacing: 1px;
 
 display: grid;
-grid-template-columns: 1fr 4fr;
+grid-template-columns: 1fr 2fr;
 grid-gap: 16px;
 grid-template-areas:
   "header  header"
@@ -18,13 +17,22 @@ grid-template-areas:
   "footer  footer";
 }
 
-header{
+h2 {
+  margin-top: 10px;
+}
+
+p {
   padding: 16px;
+}
+
+header{
   grid-area: header;
+  padding: 16px;
 }
 
 aside {
   grid-area: aside;
+  padding: 16px;
 
 }
 
@@ -33,7 +41,7 @@ main {
 
 
   display: grid;
-  grid-template-columns: 4fr 4fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "star-trek   bleach"
     "harry-potter narnia";
@@ -44,6 +52,8 @@ main {
 footer {
   grid-area: footer;
   padding: 16px;
+
+  text-align: left;
 }
 
 header, footer {
@@ -51,7 +61,7 @@ header, footer {
 }
 
 aside{
-  background-color: rgba(121 85, 72, 0.3);
+  background-color: rgba(121, 85, 72, 0.3);
 }
 
 section {
