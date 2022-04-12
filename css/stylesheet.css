@@ -1,0 +1,64 @@
+body{
+font-family: "Helvetica", "Arial", sans-serif;
+line-height: 1.6;
+font-size: 16px;
+letter-spacing: 1px;
+
+display: grid;
+grid-template-columns: 1fr 2fr;
+grid-gap: 16px;
+grid-template-areas:
+  "header  header"
+  "nav     main"
+  "footer  footer";
+}
+
+header{
+  padding: 16px;
+  grid-area: header;
+}
+
+aside {
+  grid-area: aside;
+
+  background-color: rgba(121 85, 72, 0.3);
+}
+
+main {
+  grid-area: main;
+
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "star-trek   bleach"
+    "harry-potter narnia";
+
+  grid-gap: 16px;
+}
+
+footer {
+  grid-area: footer;
+
+  background-color: rgba(158, 158, 158, 0.3);
+}
+
+section {
+  background-color: rgba(255, 152, 0, 0.3);
+}
+
+#star-trek {
+  grid-area: star-trek;
+}
+
+#bleach {
+  grid-area: bleach
+}
+
+#harry-potter {
+  grid-area: harry-potter;
+}
+
+#narnia {
+  grid-area: narnia;
+}
