@@ -33,11 +33,13 @@ header{
   padding: 16px;
 }
 
-/*aside {
+aside {
   grid-area: aside;
   padding: 16px;
+  float: left;
+  width: 25%;
 
-}*/
+}
 
 main {
   grid-area: main;
@@ -82,10 +84,6 @@ img {
   border: 1px, solid, #eee;
 }
 
-#introduction {
-  grid-area: aside;
-  padding: 16px;
-}
 
 #people-and-society{
   grid-area: people-and-society;
