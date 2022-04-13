@@ -82,6 +82,9 @@ img {
   border: 1px, solid, #eee;
 }
 
+#people-and-society h2 {
+  grid-area: one
+}
 
 #people-and-society{
   grid-area: people-and-society;
@@ -90,6 +93,7 @@ img {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
   grid-template-areas:
+    "one                                              "
     "ethnic-groups  religions  population-distribution";
 
 }
