@@ -48,7 +48,7 @@ main {
   grid-template-areas:
     "people-and-society"
     "communication"
-    "enviroment" ;            
+    "enviroment" ;
 
   grid-gap: 16px;
 }
@@ -86,13 +86,69 @@ img {
 #people-and-society{
   grid-area: people-and-society;
 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  grid-template-areas:
+    "ethnic-groups  religion  population-distribution"
+
 }
 
 #communication {
   grid-area: communication
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  grid-template-areas:
+    "broadcast-media  telecommunication-systems  internet-users"
+
 }
 
 #enviroment {
   grid-area: enviroment;
 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  grid-template-areas:
+    "land-use  major-rivers  air-pollutants"
+
+}
+
+#ethnic-groups {
+  grid-area: ethnic-groups;
+}
+
+#religion{
+  grid-area: religion;
+
+}
+
+#population-distribution{
+  grid-area: population-distribution;
+}
+
+#broadcast-media {
+  grid-area:broadcast-media;
+}
+
+#telecommunication-systems{
+  grid-area:telecommunication-systems;
+}
+
+#internet-users{
+  grid-area:internet-users;
+}
+
+#land-use {
+  grid-area:land-use;
+}
+
+#major-rivers {
+  grid-area:major-rivers;
+}
+
+#air-pollutants{
+  grid-area:air-pollutants;
 }
