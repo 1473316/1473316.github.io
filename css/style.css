@@ -64,9 +64,7 @@ main {
 article {
   padding: 16px;
   margin: 16px;
-  border-top: 4px inset #eee;
-  border-left: 4px inset #eee;
-  border-right: 4px inset #eee;
+  border: 4px inset #eee;
 }
 
 caption {
