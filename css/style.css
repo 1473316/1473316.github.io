@@ -82,74 +82,22 @@ img {
   border: 1px, solid, #eee;
 }
 
-#people-and-society h2 {
-  grid-area: one
-}
-
-#communication h2 {
-  grid-area: two
-}
-
-#enviroment h2 {
-  grid-area: three
-}
 
 #people-and-society{
   grid-area: people-and-society;
 
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 16px;
-  grid-template-areas:
-    "one                                              "
-    "ethnic-groups  religions  population-distribution";
 
 }
 
 #communication {
   grid-area: communication;
 
-  display: grid;
-   grid-template-rows: 1fr 1fr 1fr;
-   grid-gap: 16px;
-   grid-template-areas:
-      "two                                                    "
-     "broadcast-media  telecommunication-systems  internet-users";
 }
 
 #enviroment {
   grid-area: enviroment;
 
-  display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 16px;
-    grid-template-areas:
-      "three                                "
-      "land-use  major-rivers  air-pollutants";
 
   }
 
-  .ethnic-groups {
-    grid-area: ethnic-groups;
-  }
-
-  .religions{
-    grid-area: religions;
-
-  }
-
-  .population-distribution{
-    grid-area: population-distribution;
-  }
-
-  .broadcast-media {
-    grid-area:broadcast-media;
-  }
-
-  .telecommunication-systems{
-    grid-area:telecommunication-systems;
-  }
-
-  .internet-users{
-    grid-area:internet-users;
-  }
+  
