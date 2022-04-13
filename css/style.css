@@ -21,15 +21,16 @@ grid-template-areas:
 h2 {
   margin-bottom: 16px;
   padding-left: 16px;
-  border-bottom: 1px solid #555;
+  /*border-bottom: 1px solid #555;*/
 }
 
 h3{
-  font-family: "Times New Roman", "Georgia", "PT Serif", serif;
-  
-  text-decoration: underline solid rgb(240, 128, 128);
+
+  border-top: 2px solid rgb(240, 128, 128);
+
 }
 p {
+  font-family: "Times New Roman", "Georgia", "PT Serif", serif;
   padding: 16px;
 }
 
@@ -60,6 +61,7 @@ main {
 
 table {
 padding: 16px;
+margin: 16px;
 
 
 display: flex;
