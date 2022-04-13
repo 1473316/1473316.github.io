@@ -86,11 +86,19 @@ img {
   grid-area: one
 }
 
+#communication h2 {
+  grid-area: two
+}
+
+#enviroment h2 {
+  grid-area: three
+}
+
 #people-and-society{
   grid-area: people-and-society;
 
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 16px;
   grid-template-areas:
     "one                                              "
@@ -102,9 +110,10 @@ img {
   grid-area: communication;
 
   display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
    grid-gap: 16px;
    grid-template-areas:
+      "two                                                    "
      "broadcast-media  telecommunication-systems  internet-users";
 }
 
@@ -112,9 +121,10 @@ img {
   grid-area: enviroment;
 
   display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 16px;
     grid-template-areas:
+      "three                                "
       "land-use  major-rivers  air-pollutants";
 
   }
