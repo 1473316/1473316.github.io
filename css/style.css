@@ -21,11 +21,11 @@ grid-template-areas:
 h2 {
   margin-bottom: 16px;
   padding-left: 16px;
-  border-bottom: 2px double #555;
+  border-bottom: 3px double #555;
 }
 
 h3{
-  border: 2px inset #eee;
+text-decoration: underline dotted #fff;
 
 }
 p {
@@ -62,6 +62,7 @@ table {
 padding: 16px;
 margin: 16px;
 
+border: 4px inset #eee;
 
 display: flex;
 justify-content: space-between;
