@@ -44,11 +44,11 @@ main {
 
 
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
-    "people-and-society   people-and-society  people-and-society"
-    "communication          communication     communication"
-    "enviroment             enviroment          enviroment";
+    "people-and-society"
+    "communication"
+    "enviroment" ;            
 
   grid-gap: 16px;
 }
