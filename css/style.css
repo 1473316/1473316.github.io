@@ -26,6 +26,7 @@ h2 {
 
 h3{
 text-decoration: underline dotted #fff;
+text-decoration-thickness: 10%;
 
 }
 p {
@@ -62,6 +63,7 @@ main {
 
 article {
   padding: 16px;
+  margin: 16px;
   border: 4px inset #eee;
 }
 
@@ -85,6 +87,9 @@ td {
   border: 1px solid blue;
 }
 
+th {
+  padding: 16px;
+}
 
 footer {
   grid-area: footer;
