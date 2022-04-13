@@ -36,8 +36,6 @@ header{
 aside {
   grid-area: aside;
   padding: 16px;
-  float: left;
-  width: 25%;
 
 }
 
