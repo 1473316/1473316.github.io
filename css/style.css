@@ -18,20 +18,24 @@ grid-template-areas:
 }
 
 
-h2, h3 {
+h2 {
   margin-bottom: 16px;
   padding-left: 16px;
   border-bottom: 1px solid #555;
 }
 
+h3{
+  font-family: "Times New Roman", "Georgia", "PT Serif", serif;
+  
+  text-decoration: underline solid rgb(240, 128, 128);
+}
 p {
   padding: 16px;
 }
 
 header{
   grid-area: header;
-  padding: 16px;
-  margin-left: 16px;
+
 }
 
 aside {
@@ -55,8 +59,8 @@ main {
 }
 
 table {
-padding-left: 16px;
-border: 1px solid #eee;
+padding: 16px;
+
 
 display: flex;
 justify-content: space-between;
@@ -87,10 +91,10 @@ section {
 
 img {
   float: right;
-  width: 25%;
+  width: 50%;
   padding: 16px;
   margin: 16px;
-  border: 1px, solid, #eee;
+  border: 3px, solid, #eee;
 }
 
 
