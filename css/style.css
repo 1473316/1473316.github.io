@@ -90,7 +90,7 @@ img {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
   grid-template-areas:
-    "ethnic-groups  religion  population-distribution"
+    "ethnic-groups  religion  population-distribution";
 
 }
 
@@ -101,7 +101,7 @@ img {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
   grid-template-areas:
-    "broadcast-media  telecommunication-systems  internet-users"
+    "broadcast-media  telecommunication-systems  internet-users";
 
 }
 
@@ -112,7 +112,7 @@ img {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
   grid-template-areas:
-    "land-use  major-rivers  air-pollutants"
+    "land-use  major-rivers  air-pollutants";
 
 }
 
