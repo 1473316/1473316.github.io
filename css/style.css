@@ -167,7 +167,7 @@ caption {
     margin-left: auto;
     margin-right: auto;
 
-
+    border: 4px ridge #eee;
 
   }
 
@@ -175,6 +175,7 @@ caption {
     margin-left: auto;
     margin-right: auto;
 
+    border: 4px ridge #eee;
 
   }
 
@@ -182,13 +183,15 @@ caption {
     margin-left: auto;
     margin-right: auto;
 
+    border: 4px ridge #eee;
+
   }
 
   .air-pollutants {
     margin-left: auto;
     margin-right: auto;
 
-
+    border: 4px ridge #eee;
   }
 
   .street{
