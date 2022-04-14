@@ -118,22 +118,30 @@ img {
   border: 3px, solid, #eee;
 }
 
-#netherlands-ethnic-groups caption {
-caption-side: top;
+.netherlands-ethnic-groups {
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
-#religious-groups caption{
-  caption-side: top;
+.religious-groups {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#land-use-in caption{
-  caption-side: top;
+.land-use-in {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.air-pollutants {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #people-and-society{
   grid-area: people-and-society;
-2
+
 }
 
 #communication {
