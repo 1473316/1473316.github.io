@@ -7,6 +7,7 @@ font-family: "Helvetica", "Arial", sans-serif;
 line-height: 1.6;
 font-size: 16px;
 letter-spacing: 1px;
+max-width: 960px;
 
 
 display: grid;
@@ -128,8 +129,7 @@ aside {
 
 section {
   background-color: rgba(255, 152, 0, 0.3);
-  width: 960px;
-  height: auto;
+  width: 100%;
 }
 
 caption {
