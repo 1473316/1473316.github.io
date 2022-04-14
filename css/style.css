@@ -136,6 +136,9 @@ caption {
   border: 4px ridge #eee;
 }
 
+figcaption {
+  text-align: left;
+}
 
 /*img  {
   float: right;
