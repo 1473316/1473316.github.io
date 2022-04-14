@@ -129,8 +129,8 @@ aside {
 
 section {
   background-color: rgba(255, 152, 0, 0.3);
-  display: inline-block;
   width: 960px;
+  height: max-content;
 
 }
 
