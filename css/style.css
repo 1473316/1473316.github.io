@@ -114,20 +114,12 @@ section {
 }
 
 
-img [src="images/netherlands-street.jpg"] {
+img  {
   float: right;
-  width: 20%;
+  width: 50%;
   padding: 16px;
   margin: 16px;
   /*border: 3px, solid, #eee;*/
-}
-
-img [src="images/netherlands-flowers-image.jpg"]{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-
 }
 
 .netherlands-ethnic-groups {
