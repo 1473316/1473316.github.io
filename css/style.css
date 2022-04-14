@@ -123,12 +123,11 @@ header, footer {
 
 aside {
   background-color: rgba(121, 85, 72, 0.3);
-  overflow: hidden;
+
 }
 
 section {
   background-color: rgba(255, 152, 0, 0.3);
-  overflow: hidden;
   width: 960px;
 }
 
@@ -138,9 +137,9 @@ caption {
 
 figcaption {
   font-family: "Times New Roman", "Georgia", "PT Serif", serif;
-  text-align center:
+  text-align: center:
   padding: 16px;
-  
+
 }
 
 /*img  {
