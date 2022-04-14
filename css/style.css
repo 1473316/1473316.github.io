@@ -130,10 +130,13 @@ section {
   width: 960px;
 }
 
+figure{
+  border: 1px, inset, #eee;
+}
 
 img  {
   float: right;
-  width: 50%;
+  width: 75%;
   padding: 16px;
   margin: 16px;
   /*border: 3px, solid, #eee;*/
