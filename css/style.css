@@ -110,11 +110,6 @@ section {
   width: 960px;
 }
 
-figure {
-  border: 1px solid #555;
-  padding: 16px;
-  width: 350px;
-}
 
 img [src="images/netherlands-street.jpg"] {
   float: right;
