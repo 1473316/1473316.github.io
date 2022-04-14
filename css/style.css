@@ -89,10 +89,13 @@ th {
   padding: 16px;
 }
 
+ul {
+  font-family: "Times New Roman", "Georgia", "PT Serif", serif;
+  padding: 16px;
+}
 footer {
   grid-area: footer;
   padding: 16px;
-
 
 }
 
