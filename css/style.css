@@ -24,7 +24,7 @@ a:link {
 }
 
 a:visited {
-  color: #555; 
+  color: #555;
 }
 
 a:hover {
@@ -61,7 +61,6 @@ header{
 
 aside {
   grid-area: aside;
-
 
 }
 
@@ -109,6 +108,7 @@ th {
 ul {
   font-family: "Times New Roman", "Georgia", "PT Serif", serif;
   padding: 16px;
+  margin-left: 16px;
 }
 footer {
   grid-area: footer;
