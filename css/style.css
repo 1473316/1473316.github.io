@@ -68,10 +68,6 @@ article {
   border: 4px inset #eee;
 }
 
-caption {
-caption-side: top;
-
-}
 
 table {
 padding: 16px;
@@ -122,6 +118,18 @@ img {
   border: 3px, solid, #eee;
 }
 
+#netherlands-ethnic-groups caption {
+caption-side: top;
+
+}
+
+#religious-groups caption{
+  caption-side: top;
+}
+
+#land-use-in caption{
+  caption-side: top;
+}
 
 #people-and-society{
   grid-area: people-and-society;
