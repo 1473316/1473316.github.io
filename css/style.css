@@ -7,8 +7,7 @@ font-family: "Helvetica", "Arial", sans-serif;
 line-height: 1.6;
 font-size: 16px;
 letter-spacing: 1px;
-display: flex;
-height:100%;
+
 
 display: grid;
 grid-template-columns: 1fr 2fr;
@@ -62,7 +61,7 @@ header{
 
 aside {
   grid-area: aside;
-  height:100%;
+  min-height: 100vh;
 
 }
 
