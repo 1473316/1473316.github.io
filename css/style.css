@@ -111,14 +111,9 @@ ul {
   margin-left: 16px;
 }
 
-footer {
-  grid-area: footer;
-  padding: 16px;
-
-}
-
-header, footer {
-  background-color: rgba(158, 158, 158, 0.3);
+abbr {
+  text-decoration-color: rgb(0,0,0);
+  text-decoration-style: dotted;
 }
 
 aside {
@@ -144,6 +139,16 @@ figcaption {
   text-align: left;
   padding: 16px;
   margin-bottom: 16px;
+
+}
+
+header, footer {
+  background-color: rgba(158, 158, 158, 0.3);
+}
+
+footer {
+  grid-area: footer;
+  padding: 16px;
 
 }
 
@@ -200,7 +205,6 @@ figcaption {
   .air-pollutants {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 112px;
     border: 4px ridge #eee;
   }
 
