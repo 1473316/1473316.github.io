@@ -81,7 +81,7 @@ article {
   padding: 16px;
   margin: 16px;
   border: 4px inset #eee;
-
+  margin-bottom:
 
 }
 
@@ -142,6 +142,7 @@ figcaption {
   font-family: "Times New Roman", "Georgia", "PT Serif", serif;
   text-align: left;
   padding: 16px;
+  margin-bottom: 16px;
 
 }
 
@@ -198,7 +199,7 @@ figcaption {
   .air-pollutants {
     margin-left: auto;
     margin-right: auto;
-
+    margin-bottom: 128pxl
     border: 4px ridge #eee;
   }
 
