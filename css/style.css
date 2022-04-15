@@ -20,19 +20,19 @@ grid-template-areas:
 
 a,
 a:link {
-  color: rgb(14,31,65);
+  color: rgb(0,0,255);
 }
 
 a:visited {
-  color: #555;
+  color: rgb(128,0,128);
 }
 
 a:hover {
-  color: rgb(201,53,68);
+  color: rgb(255,0,0);
 }
 
 a:active {
-  color: rgb(245,188,78);
+  color: rgb(255,255,0);
 }
 
 
