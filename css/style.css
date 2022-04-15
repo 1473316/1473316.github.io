@@ -111,6 +111,9 @@ section {
 
 aside {
   background-color: rgba(121, 85, 72, 0.3);
+}
+
+aside > p {
   border-top: 4px inset #eee;
 }
 
