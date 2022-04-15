@@ -135,6 +135,7 @@ caption {
 
 figcaption {
   font-family: "Times New Roman", "Georgia", "PT Serif", serif;
+  line-height: 1.7;
   font-style: italic;
   text-align: left;
   padding: 16px;
