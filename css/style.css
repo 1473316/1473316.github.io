@@ -113,10 +113,6 @@ aside {
   background-color: rgba(121, 85, 72, 0.3);
 }
 
-aside > p {
-  padding-top: 0;
-}
-
 caption {
   border: 4px ridge #eee;
 }
@@ -179,6 +175,7 @@ footer {
 .street{
   float: right;
   width: 50%;
+  padding: 16px;
   margin: 16px;
 
 }
