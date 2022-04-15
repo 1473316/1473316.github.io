@@ -140,6 +140,7 @@ caption {
 
 figcaption {
   font-family: "Times New Roman", "Georgia", "PT Serif", serif;
+  font-style: italic;
   text-align: left;
   padding: 16px;
   margin-bottom: 16px;
@@ -199,7 +200,8 @@ figcaption {
   .air-pollutants {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 128px;
+    margin-top:
+    margin-bottom: 112px;
     border: 4px ridge #eee;
   }
 
