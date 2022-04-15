@@ -113,7 +113,7 @@ aside {
   background-color: rgba(121, 85, 72, 0.3);
 }
 
-aside > p:first {
+aside > p:first-of-type {
   border-top: 4px inset #eee;
 }
 
