@@ -113,7 +113,7 @@ aside {
   background-color: rgba(121, 85, 72, 0.3);
 }
 
-aside > p {
+aside > p:first {
   border-top: 4px inset #eee;
 }
 
@@ -126,6 +126,7 @@ figcaption {
   font-style: italic;
   text-align: left;
   padding: 16px;
+  padding-bottom: 24px;
 }
 
 header, footer {
