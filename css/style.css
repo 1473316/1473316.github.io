@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  letter-spacing: 1px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+  grid-template-areas:
+   "header   header"
+   "nav      nav"
+   "main     main"
+   "footer   footer";
+}
+
+a,
+a:link {
+  color: rgb(0,0,255);
+}
+
+a:visited {
+  color: rgb(128,0,128);
+}
+
+a:hover {
+  color: rgb(255,0,0);
+}
+
+a:active {
+  color: rgb(255,255,0);
+}
+
+p {
+  font-family: "Times New Roman", "Georgia", "PT Serif", serif;
+  padding: 16px;
+}
+
+header {
+  grid-area: header;
+  padding: 16px;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "people-and-society"
+    "communication"
+    "enviroment" ;
+
+  grid-gap: 16px;
+}
