@@ -50,15 +50,39 @@ nav {
   grid-area: nav;
 }
 
-main {
+li a {
+  display: inline;
+}
+
+#main-index {
   grid-area: main;
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-    "people-and-society"
-    "communication"
-    "enviroment" ;
+    "about services contact" ;
+
+  grid-gap: 16px;
+}
+
+#main-music {
+  grid-area: main;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "bones sata-maria piano" ;
+
+  grid-gap: 16px;
+}
+
+#main-writing {
+  grid-area: main;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "scarecrow heart green" ;
 
   grid-gap: 16px;
 }
