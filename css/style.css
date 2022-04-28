@@ -81,7 +81,7 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-    "bones sata-maria piano";
+    "bones  piano  santa-maria ";
 
   grid-gap: 16px;
 }
