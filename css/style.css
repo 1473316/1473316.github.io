@@ -92,6 +92,7 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
+    "ink    ink    ink"
     "scarecrow heart boy";
 
   grid-gap: 16px;
@@ -150,6 +151,12 @@ section {
 }
 
 .insta{
+  width: 30%;
+  padding: 16px;
+  margin: 16px;
+}
+
+.pen{
   width: 30%;
   padding: 16px;
   margin: 16px;
