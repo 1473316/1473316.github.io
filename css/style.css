@@ -75,7 +75,7 @@ section {
   grid-gap: 16px;
 }
 
-#main-music {
+#music-main {
   grid-area: main;
 
   display: grid;
@@ -86,7 +86,7 @@ section {
   grid-gap: 16px;
 }
 
-#main-writing {
+#writing-main {
   grid-area: main;
 
   display: grid;
