@@ -11,13 +11,13 @@ body {
   width: 960px;
 
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
   grid-template-areas:
-   "header   header"
-   "nav      nav"
-   "main     main"
-   "footer   footer";
+   "header   header  header"
+   "nav      nav      nav"
+   "main     main     main"
+   "footer   footer    footer";
 }
 
 a,
@@ -52,13 +52,17 @@ nav {
   background-color: rgba(121, 85, 72, 0.3);
 }
 
+main{
+  width: 960px;
+}
+
 li a {
   display: inline;
 }
 
 section {
   background-color: rgba(255, 152, 0, 0.3);
-  width: 960px;
+
 }
 #main-index {
   grid-area: main;
