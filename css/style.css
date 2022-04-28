@@ -92,7 +92,7 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-    "ink    ink    ink"
+    " .      pen   . "
     "scarecrow heart boy";
 
   grid-gap: 16px;
@@ -157,7 +157,8 @@ section {
 }
 
 .pen{
-  width: 30%;
+  grid-area: pen;
+  width: auto;
   padding: 16px;
   margin: 16px;
 }
