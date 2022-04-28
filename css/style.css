@@ -130,3 +130,22 @@ section {
 #boy{
   grid-area: boy;
 }
+
+.mailbox{
+  width: 30%;
+  padding: 16px;
+  margin: 16px;
+
+}
+
+.hello{
+  width: 30%;
+  padding: 16px;
+  margin: 16px;
+}
+
+.insta{
+  width: 30%;
+  padding: 16px;
+  margin: 16px;
+}
