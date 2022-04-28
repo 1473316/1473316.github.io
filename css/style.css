@@ -48,19 +48,24 @@ header {
 
 nav {
   grid-area: nav;
+  background-color: rgba(121, 85, 72, 0.3);
 }
 
 li a {
   display: inline;
 }
 
+section {
+  background-color: rgba(255, 152, 0, 0.3);
+  width: 960px;
+}
 #main-index {
   grid-area: main;
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-    "about services contact" ;
+    "about-me services contact";
 
   grid-gap: 16px;
 }
@@ -71,7 +76,7 @@ li a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-    "bones sata-maria piano" ;
+    "bones sata-maria piano";
 
   grid-gap: 16px;
 }
@@ -82,7 +87,46 @@ li a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-    "scarecrow heart green" ;
+    "scarecrow heart boy";
 
   grid-gap: 16px;
+}
+
+#about-me{
+  grid-area: about-me
+
+}
+
+#services{
+  grid-area: services;
+}
+
+#contact{
+  grid-area: contact;
+}
+
+#bones{
+  grid-area: bones
+
+}
+
+#santa-maria{
+  grid-area: santa-maria;
+}
+
+#piano{
+  grid-area: piano;
+}
+
+#scarecrow{
+  grid-area: scarecrow;
+
+}
+
+#heart{
+  grid-area: heart;
+}
+
+#boy{
+  grid-area: boy;
 }
