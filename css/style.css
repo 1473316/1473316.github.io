@@ -76,6 +76,7 @@ img{
 }
 
 footer{
+  grid-area: footer;
   background-color: rgba(100,155,126);
   width: 100%;
 }
