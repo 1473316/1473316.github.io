@@ -93,6 +93,13 @@ footer{
   background-color: rgba(100,155,126);
   width: 100%;
 }
+
+#mainMenu{
+  display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+}
 #main-index {
   grid-area: main;
 
