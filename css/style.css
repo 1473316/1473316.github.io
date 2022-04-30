@@ -37,6 +37,11 @@ a:active {
   color: rgb(255,255,0);
 }
 
+h2{
+  margin-bottom: 16px;
+  padding-left: 16px;
+}
+
 p {
   font-family: "Times New Roman", "Georgia", "PT Serif", serif;
   padding: 16px;
@@ -45,11 +50,12 @@ p {
 header {
   grid-area: header;
   padding: 16px;
+  background-color: rgba(165,50,61);
 }
 
 nav {
   grid-area: nav;
-  background-color: rgba(121, 85, 72, 0.3);
+  background-color: rgba(246,202,76);
 }
 
 main{
@@ -61,8 +67,11 @@ li a {
 }
 
 section {
-  background-color: rgba(255, 152, 0, 0.3);
+  background-color: rgba(218,158,63);
+}
 
+footer{
+  background-color: rgba(100,155,126);
 }
 #main-index {
   grid-area: main;
