@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Diplomata+SC&display=swap');
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: "Cormorant Garamond", "Helvetica", "Arial", sans-serif;
   line-height: 1.6;
   font-size: 16px;
   letter-spacing: 1px;
@@ -44,14 +46,16 @@ h2{
 }
 
 p {
-  font-family: "Times New Roman", "Georgia", "PT Serif", serif;
+  /*font-family: "Times New Roman", "Georgia", "PT Serif", serif;*/
   padding: 16px;
 }
 
 header {
+  font-family: "Diplomata SC", "Times New Roman", "Georgia", "PT Serif", serif;
   grid-area: header;
   padding: 16px;
   background-color: rgba(165,50,61, 0.83);
+  font family:
 }
 
 nav {
@@ -64,6 +68,7 @@ main{
 }
 
 ul {
+  font-family: "Cormorant Garamond", "Helvetica", "Arial", sans-serif;
   padding: 16px;
   margin: 16px;
 }
