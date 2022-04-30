@@ -55,7 +55,7 @@ header {
 
 nav {
   grid-area: nav;
-  background-color: rgba(246,202,76);
+  background-color: rgba(218,158,63);
 }
 
 main{
@@ -67,12 +67,13 @@ li a {
 }
 
 section {
-  background-color: rgba(218,158,63);
+  background-color: rgba(246,202,76);
   max-width: 960px;
 }
 
 footer{
   background-color: rgba(100,155,126);
+  width: 100%;
 }
 #main-index {
   grid-area: main;
