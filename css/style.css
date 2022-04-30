@@ -158,7 +158,7 @@ section {
 
 .pen{
   grid-area: pen;
-  width: auto;
+  width: 30%;
   padding: 16px;
   margin: 16px;
 }
