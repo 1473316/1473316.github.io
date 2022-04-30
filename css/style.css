@@ -38,7 +38,8 @@ a:active {
 }
 
 h2{
-  margin-bottom: 16px;
+  margin-top: 16px;
+  margin-top: 16px;
   padding-left: 16px;
 }
 
@@ -161,25 +162,25 @@ footer{
 .mailbox{
   width: 50%;
   padding: 16px;
-  margin: 16px;
+  margin-left: 16px;
 
 }
 
 .hello{
   width: 50%;
   padding: 16px;
-  margin: 16px;
+  margin-left: 16px;
 }
 
 .insta{
   width: 40%;
   padding: 16px;
-  margin: 16px;
+  margin-left: 16px;
 }
 
 .pen{
   grid-area: pen;
   width: 50%;
   padding: 16px;
-  margin: 16px;
+  margin-left: 16px;
 }
