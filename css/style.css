@@ -68,6 +68,7 @@ li a {
 
 section {
   background-color: rgba(218,158,63);
+  max-width: 960px;
 }
 
 footer{
@@ -101,7 +102,6 @@ footer{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-    " .      pen   . "
     "scarecrow heart boy";
 
   grid-gap: 16px;
