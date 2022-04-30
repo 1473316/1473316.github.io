@@ -71,6 +71,10 @@ section {
   max-width: 960px;
 }
 
+img{
+  border: 4px inset #eee;
+}
+
 footer{
   background-color: rgba(100,155,126);
   width: 100%;
@@ -148,27 +152,27 @@ footer{
 }
 
 .mailbox{
-  width: 30%;
+  width: 50%;
   padding: 16px;
   margin: 16px;
 
 }
 
 .hello{
-  width: 30%;
+  width: 50%;
   padding: 16px;
   margin: 16px;
 }
 
 .insta{
-  width: 30%;
+  width: 50%;
   padding: 16px;
   margin: 16px;
 }
 
 .pen{
   grid-area: pen;
-  width: 30%;
+  width: 50%;
   padding: 16px;
   margin: 16px;
 }
