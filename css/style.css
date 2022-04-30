@@ -51,12 +51,12 @@ p {
 header {
   grid-area: header;
   padding: 16px;
-  background-color: rgba(165,50,61);
+  background-color: rgba(165,50,61, 0.83);
 }
 
 nav {
   grid-area: nav;
-  background-color: rgba(218,158,63);
+  background-color: rgb(218,158,63);
 }
 
 main{
