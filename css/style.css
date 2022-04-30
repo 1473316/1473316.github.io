@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Diplomata+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@0;1&family=Diplomata+SC&display=swap');
 
 * {
   margin: 0;
@@ -83,8 +83,9 @@ img{
 }
 
 figcaption{
+  font-family: "Cormorant Garamond", "Helvetica", "Arial", sans-serif;
+  font-style: italic;
   padding: 16px;
-  font-family: "Times New Roman", "Georgia", "PT Serif", serif;
 
 }
 footer{
