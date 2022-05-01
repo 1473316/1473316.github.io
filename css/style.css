@@ -167,10 +167,6 @@ footer{
   grid-area: boy;
 }
 
-.mainNav li{
-  float:left;
-}
-
 .mailbox{
   width: 50%;
   padding: 16px;
