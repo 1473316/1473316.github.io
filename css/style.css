@@ -95,12 +95,6 @@ footer{
   width: 100%;
 }
 
-#mainMenu{
-  display:block;
-	width:120px;
-	float:left;
-	margin-left:2px;
-}
 #main-index {
   grid-area: main;
 
@@ -171,6 +165,10 @@ footer{
 
 #boy{
   grid-area: boy;
+}
+
+.mainNav li{
+  float:left;
 }
 
 .mailbox{
