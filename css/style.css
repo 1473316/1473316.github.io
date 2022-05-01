@@ -70,7 +70,8 @@ main{
 ul {
   font-family: "Cormorant Garamond", "Helvetica", "Arial", sans-serif;
   padding: 16px;
-  margin: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 section {
