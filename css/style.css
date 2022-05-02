@@ -24,7 +24,7 @@ body {
 
 a,
 a:link {
-  color: rgba(0,0,255, 0.33);
+  color: rgb(0,0,255);
 }
 
 a:visited {
