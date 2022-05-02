@@ -91,7 +91,7 @@ figcaption{
 }
 footer{
   grid-area: footer;
-  background-color: rgba(100,155,126);
+  background-color: rgba(100,155,126,0.73);
   width: 100%;
 }
 
