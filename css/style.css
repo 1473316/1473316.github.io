@@ -112,7 +112,7 @@ footer{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-    "bones  piano  santa-maria ";
+    "bryant  piano  santa-maria ";
 
   grid-gap: 16px;
 }
@@ -129,7 +129,7 @@ footer{
 }
 
 #about-me{
-  grid-area: about-me
+  grid-area: about-me;
 
 }
 
@@ -141,8 +141,8 @@ footer{
   grid-area: contact;
 }
 
-#bones{
-  grid-area: bones
+#bryant{
+  grid-area: bryant;
 
 }
 
